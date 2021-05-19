@@ -146,13 +146,23 @@ h4 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: auto;
   padding-top: 100px;
 }
 
 .menu {
   display: block;
   width: 350px;
-  height: 350px;
+  height: 348px;
+}
+
+.row-1 {
+  height: 323px;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
 }
 
 .menu-title {
@@ -277,6 +287,8 @@ h4 {
   padding-bottom: 0;
 
   text-align: center;
+
+  border-style: none;
 }
 
 .contacts {
