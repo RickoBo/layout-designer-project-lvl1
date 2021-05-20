@@ -137,16 +137,17 @@ h4 {
   position: relative;
 
   max-width: 1110px;
-  margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 .navigation {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   justify-content: space-between;
   margin: auto;
+  width: 100%;
   margin-top: 100px;
 }
 
