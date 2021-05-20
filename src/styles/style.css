@@ -146,19 +146,15 @@ h4 {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  margin: auto;
   width: 100%;
   margin-top: 100px;
 }
 
 .menu {
-  display: block;
-  width: 350px;
-  height: 348px;
+  max-width: 350px;
 }
 
 .row-1 {
-  height: 323px;
 }
 
 .visually-hidden {
