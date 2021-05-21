@@ -241,10 +241,9 @@ h4 {
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
   margin-top: 100px;
-  column-gap: 30px;
 }
 
 .visually-hidden {
