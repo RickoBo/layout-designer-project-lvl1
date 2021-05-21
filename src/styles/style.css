@@ -347,7 +347,7 @@ h4 {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 38px 55px 40px 55px;
+  padding: 40px 55px;
 
   color: var(--white);
 
@@ -366,14 +366,14 @@ h4 {
 
 .subscription-item {
   display: flex;
-  align-items: stretch;
+
   width: 100%;
-  margin-top: 9px;
+  margin-top: 10px;
 }
 
 .subscription-input {
   width: calc(100% - 70px);
-  max-width: 394px;
+  max-width: 430px;
   height: 50px;
   padding: 15px;
   border: none;
@@ -394,7 +394,7 @@ h4 {
 .button {
   position: relative;
 
-  width: 70px;
+  width: 65px;
   height: 50px;
   padding: 12px 24px;
   border: none;
@@ -417,4 +417,9 @@ h4 {
   content: " ";
 }
 
+.contacts {
+  width: 100%;
+  margin-top: 60px;
+  text-align: center;
+}
 /* Footer Styles */
