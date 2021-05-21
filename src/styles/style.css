@@ -169,6 +169,7 @@ h4 {
 
 .header-block {
   position: relative;
+
   width: 100%;
 }
 
@@ -189,9 +190,11 @@ h4 {
 
 .header-content {
   position: relative;
+
   display: flex;
   justify-content: space-between;
   margin-top: 185px;
+
   column-gap: 30px;
 }
 
@@ -221,12 +224,14 @@ h4 {
 
 .video-block {
   width: 100%;
+
   text-align: center;
 }
 
 .shadow {
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
   border-style: none;
+
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 /* Video Section Styles End */
@@ -258,6 +263,7 @@ h4 {
 
 .menu:first-child {
   padding: 0;
+
   background-color: #42413c;
 }
 
@@ -275,8 +281,8 @@ h4 {
   padding-bottom: 40px;
 
   font-size: 64px;
-  line-height: 1;
   font-family: "Neucha", sans-serif;
+  line-height: 1;
 }
 
 .card:hover h3 {
@@ -295,11 +301,13 @@ h4 {
 
 .section-header {
   display: flex;
+
   column-gap: 30px;
 }
 
 .section-content {
   display: flex;
+
   column-gap: 30px;
 }
 
@@ -340,15 +348,19 @@ h4 {
   justify-content: space-between;
   width: 100%;
   padding: 38px 55px 40px 55px;
+
   color: var(--white);
+
   background-color: var(--primary-dark);
 }
 
 .subscription-title {
   width: 50%;
 }
+
 .subscription-email {
   width: 50%;
+
   font-size: 18px;
 }
 
@@ -369,8 +381,10 @@ h4 {
 
 .subscription-rules {
   margin: 0;
-  font-size: 12px;
+
   color: var(--white);
+
+  font-size: 12px;
 }
 
 .subscription-rules a {
@@ -379,11 +393,14 @@ h4 {
 
 .button {
   position: relative;
+
   width: 70px;
   height: 50px;
   padding: 12px 24px;
   border: none;
+
   text-transform: uppercase;
+
   background-color: #fe8a02;
 }
 
@@ -392,9 +409,11 @@ h4 {
 
   width: 24px;
   height: 24px;
+
   background-image: url(../assets/images/send.svg);
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
+
   content: " ";
 }
 
