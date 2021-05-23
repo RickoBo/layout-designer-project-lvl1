@@ -268,13 +268,14 @@ h4 {
 }
 
 .card {
-  display: block;
-
   padding: 24px;
 
-  color: var(--primary-dark);
-
   text-decoration: none;
+}
+
+.card a {
+  text-decoration: none;
+  color: var(--primary-dark);
 }
 
 .card-number {
@@ -289,7 +290,7 @@ h4 {
   color: var(--white);
 }
 
-.card:hover {
+.card a:hover {
   color: var(--white);
 
   background-color: var(--primary);
