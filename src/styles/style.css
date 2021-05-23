@@ -11,23 +11,23 @@
   --blue: #1085c5;
 }
 
-/* @font-face {
+@font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Regular.ttf") format(ttf);
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format(ttf);
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("../../assets/fonts/OpenSans-Bold.ttf") format(ttf);
+  src: url("../assets/fonts/OpenSans-Bold.ttf") format(ttf);
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url("../../assets/fonts/Neucha-Regular.ttf") format(ttf);
-} */
+  src: url("../assets/fonts/Neucha-Regular.ttf") format(ttf);
+}
 
 html {
   color: var(--dark);
