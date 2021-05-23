@@ -254,6 +254,7 @@ h4 {
 
 .navigation-title {
   font-size: 52px;
+  font-family: "Neucha", sans-serif;
 }
 
 .menu {
@@ -268,14 +269,13 @@ h4 {
 }
 
 .card {
+  display: block;
+
   padding: 24px;
 
-  text-decoration: none;
-}
-
-.card a {
-  text-decoration: none;
   color: var(--primary-dark);
+
+  text-decoration: none;
 }
 
 .card-number {
@@ -290,7 +290,7 @@ h4 {
   color: var(--white);
 }
 
-.card a:hover {
+.card:hover {
   color: var(--white);
 
   background-color: var(--primary);
