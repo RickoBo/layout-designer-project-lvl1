@@ -14,19 +14,19 @@
 @font-face {
   font-weight: 400;
   font-family: "Open Sans";
-  src: url("../assets/fonts/OpenSans-Regular.ttf") format(ttf);
+  src: url("../assets/fonts/OpenSans-Regular.ttf") format("ttf");
 }
 
 @font-face {
   font-weight: 700;
   font-family: "Open Sans";
-  src: url("../assets/fonts/OpenSans-Bold.ttf") format(ttf);
+  src: url("../assets/fonts/OpenSans-Bold.ttf") format("ttf");
 }
 
 @font-face {
   font-weight: 400;
   font-family: "Neucha";
-  src: url("../assets/fonts/Neucha-Regular.ttf") format(ttf);
+  src: url("../assets/fonts/Neucha-Regular.ttf") format("ttf");
 }
 
 html {
@@ -50,7 +50,7 @@ h4 {
 
   font-weight: lighter;
 
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", cursive;
 
   line-height: 1.2em;
 }
@@ -254,7 +254,7 @@ h4 {
 
 .navigation-title {
   font-size: 52px;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", cursive;
 }
 
 .menu {
@@ -282,7 +282,7 @@ h4 {
   padding-bottom: 40px;
 
   font-size: 64px;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", cursive;
   line-height: 1;
 }
 
@@ -318,14 +318,14 @@ h4 {
 
 .description {
   font-size: 34px;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", cursive;
 
   line-height: 1.2;
 }
 
 .subtitle {
   font-size: 24px;
-  font-family: "Neucha", sans-serif;
+  font-family: "Neucha", cursive;
 }
 
 .section-divider {
